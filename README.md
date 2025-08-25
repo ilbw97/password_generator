@@ -31,6 +31,23 @@ go run main.go
 ```
 
 ### 빌드 방법
+
+#### Makefile 사용 (권장)
+```bash
+# 빌드
+make build
+
+# 실행
+make run
+
+# 정리
+make clean
+
+# 도움말 보기
+make help
+```
+
+#### 직접 빌드
 ```bash
 # 실행 파일 빌드
 go build -o password_generator main.go
